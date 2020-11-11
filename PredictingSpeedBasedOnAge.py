@@ -1,0 +1,25 @@
+#Import Modules
+import matplotlib.pyplot as plt
+from scipy import stats
+
+#Training Lists
+x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
+y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+#Initializing values needed
+slope, intercept, r, p, std_err = stats.linregress(x, y)
+
+#Function to predict
+def predict(x):
+  return slope * x + intercept
+
+#Model
+mymodel = list(map(predict, x))
+
+plt.scatter(x, y)
+plt.plot(x, mymodel)
+plt.show()
+
+#Prediction
+predicted_speed = predict(10)
+print("Predicted Speed for 10 years of age :- "+predicted_speed)
