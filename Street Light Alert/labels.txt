@@ -1,0 +1,4 @@
+0 Red
+1 Green
+2 StopW
+3 ContinueW
