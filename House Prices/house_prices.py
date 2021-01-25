@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn import *
 
-data=pd.read_csv(r'C:\Users\Gobu\OneDrive\Desktop\kc_house_data.csv')
+data=pd.read_csv('kc_house_data.csv')
 print(data.head())
 
 #Independent variable
