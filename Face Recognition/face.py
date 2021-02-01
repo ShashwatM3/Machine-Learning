@@ -6,7 +6,7 @@ import os
 np.set_printoptions(suppress=True)
 
 # Load the model
-model = tensorflow.keras.models.load_model(r'C:\Users\Gobu\OneDrive\Desktop\converted_keras (3)\keras_model.h5')
+model = tensorflow.keras.models.load_model('keras_model.h5')
 
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
