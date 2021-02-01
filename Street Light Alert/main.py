@@ -18,7 +18,7 @@ while True:
     path = input("Enter path of file - ")
 
     # Load the model
-    model = tensorflow.keras.models.load_model(r'C:\Users\Gobu\OneDrive\Desktop\StreetLights\keras_model.h5')
+    model = tensorflow.keras.models.load_model(r'keras_model.h5')
 
     # Create the array of the right shape to feed into the keras model
     # The 'length' or number of images you can put into the array is
