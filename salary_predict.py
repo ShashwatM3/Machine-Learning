@@ -7,7 +7,7 @@ from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, r2_score
 
 #load data
-data_set=pd.read_csv(r'C:\Users\Gobu\OneDrive\Desktop\General\data\Salary_Data.csv')
+data_set=pd.read_csv('Salary_Data.csv')
 
 #independent variable
 x=data_set.loc[:,'YearsExperience']
