@@ -6,6 +6,7 @@ This repository contains the following files :-
 3. Prediction of House Prices, this program has been created for a kaggle competition
 4. Access Automation (Granted or Rejected) based upon face recognition
 5. Prediction of Speed based on Age
+6. Classification using MNIST Dataset
 
 All of these projects or programs have been created using machine learning in python.
 
