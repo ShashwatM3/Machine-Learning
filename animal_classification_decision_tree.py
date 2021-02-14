@@ -5,7 +5,7 @@ from sklearn import *
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 
 #load data
-data=pd.read_csv(r'zoo.csv')
+data=pd.read_csv('zoo.csv')
 print(data.head())
 
 label_encoder = preprocessing.LabelEncoder()
