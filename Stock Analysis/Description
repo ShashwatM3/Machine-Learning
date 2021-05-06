@@ -1,0 +1,5 @@
+This folder contains 2 files :-
+- Stock_Analysis.ipnyb where the code of analysing the stocks is present
+- Descriptiom, which describes the project
+
+ARIMA Model is used for time series forecasting
