@@ -8,6 +8,7 @@ This repository contains the following files :-
 5. Prediction of Speed based on Age
 6. Classification using MNIST Dataset
 7. Stock Analysis Time Foreacasting using ARIMA Model
+8. Credit Card Fraud Predictions
 
 All of these projects or programs have been created using machine learning in python.
 
